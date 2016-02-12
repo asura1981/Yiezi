@@ -1,0 +1,138 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3-SNAPSHOT October 10, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Frontpage */
+.rt-image {margin-bottom: 15px;padding: 3px;border: 1px solid #ccc;}
+.apr12-home .component-block, .apr12-home #rt-main {padding-bottom: 0;padding-top:0;}
+.apr12-home .component-content .rt-leading-articles .item-separator {margin-bottom: 0;}
+.apr12-home #rg-163 .rg-gm-slice-container, .apr12-home #rg-93 .rg-gm-slice-container {margin: 0;}
+.apr12-home #rg-163 .rg-gm-slice-list, .apr12-home #rg-93 .rg-gm-slice-list {margin-bottom: 14px;}
+.apr12-home #rg-163 .rg-gm-container, .apr12-home #rg-93 .rg-gm-container {margin-bottom: -14px;}
+
+/* Custom Rule for SubPages */
+.menu-module-positions #rt-main {padding-bottom: 0; margin-bottom: -30px;}
+.readon .bigspace {font-size: 25px;padding: 10px 15px;}
+.narrow-letter-spacing {letter-spacing: -2px;}
+
+/* Menu Styles */
+.fusion-modules.item, .fusion-modules.item:hover {margin:5px 10px !important;border:0 !important;padding:0 !important;}
+.menu-preset {float: left;margin: 1px;}
+body .menutop li .menu-preset > a > span {display:block;width:100px !important;height:93px !important;background:url(../../../images/stories/demo/general/preset-style-icons.png);padding:0 !important;margin:0 !important;border-radius:0 !important;z-index:9;border:0 !important;cursor:pointer;}
+body .menutop li .menu-preset > a > span:hover {margin:0 !important;padding:0 !important;z-index:10;border:0 !important;cursor:pointer;}
+.preset2 > a > span {background-position: -100px 0 !important;}
+.preset3 > a > span {background-position: -200px 0 !important;}
+.preset4 > a > span {background-position: 0px -93px !important;}
+.preset5 > a > span {background-position: -100px -93px !important;}
+.preset6 > a > span {background-position: -200px -93px !important;}
+.preset7 > a > span {background-position: 0px -186px !important;}
+.preset8 > a > span {background-position: -100px -186px !important;}
+.preset9 > a > span {background-position: -200px -186px !important;}
+.preset10 > a > span {background-position: 0px -279px !important;}
+.preset11 > a > span {background-position: -100px -279px !important;}
+.preset12 > a > span {background-position: -200px -279px !important;}
+
+/* Custom Grid */
+.rt-demo-grid-2, .rt-demo-grid-3, .rt-demo-grid-4, .rt-demo-grid-5, .rt-demo-grid-6, .rt-demo-grid-7, .rt-demo-grid-8, .rt-demo-grid-9 {float: left;margin-left: 10px;margin-right: 10px;}
+.rt-grid-4 .rt-block .rt-demo-grid-2 {width: 90px;}
+.rt-grid-8 .rt-demo-grid-2 {width: 90px;}
+.rt-grid-9 .rt-demo-grid-2 {width: 120px;}
+.rt-grid-6 .rt-block .rt-demo-grid-3 {width: 190px;}
+.rt-grid-8 .rt-demo-grid-3 {width: 175px;}
+.rt-grid-9 .rt-demo-grid-3 {width: 200px;}
+.rt-grid-8 .rt-demo-grid-4 {width: 270px;}
+.rt-grid-9 .rt-demo-grid-4 {width: 313px;}
+.rt-grid-8 .rt-demo-grid-6 {width: 440px;}
+.rt-grid-12 .rt-demo-grid-3 {width: 205px;}
+.rt-grid-12 .rt-demo-grid-4 {width: 290px;}
+.rt-grid-12 .rt-demo-grid-6 {width: 430px;}
+.rt-grid-12 .rt-demo-grid-8 {width: 590px;}
+
+/* Large Display, Desktop and Tablets Demo Responsive Grid */
+.rt-demo-width-10, .rt-demo-width-20, .rt-demo-width-25, .rt-demo-width-30, .rt-demo-width-33, .rt-demo-width-40, .rt-demo-width-50, .rt-demo-width-60, .rt-demo-width-66, .rt-demo-width-70, .rt-demo-width-75, .rt-demo-width-80, .rt-demo-width-90 {float: left;}
+.rt-demo-space {margin: 15px;}
+.rt-demo-width-10 {width: 10%;}
+.rt-demo-width-20 {width: 20%;}
+.rt-demo-width-25 {width: 25%;}
+.rt-demo-width-30 {width: 30%;}
+.rt-demo-width-33 {width: 33.33%;}
+.rt-demo-width-40 {width: 40%;}
+.rt-demo-width-50 {width: 50%;}
+.rt-demo-width-60 {width: 60%;}
+.rt-demo-width-66 {width: 66.66%;}
+.rt-demo-width-70 {width: 70%;}
+.rt-demo-width-75 {width: 75%;}
+.rt-demo-width-80 {width: 80%;}
+.rt-demo-width-90 {width: 90%;}
+
+/* Standard Inline Structural Adjustments */
+body .rt-floatleft {float: left;margin-right: 15px;margin-left: 0;}
+body .rt-floatright {float: right;margin-left: 15px;margin-right: 0;}
+body .normalfont, body .normalfont li {font-size: 100% !important;}
+body .nobold, body .nobold a, body .nobold li {font-weight: normal !important;}
+body .nomarginall, body .nomarginall .rt-block, body .nomarginall .rt-block .module-surround, body ul.nomarginall, body li.nomarginall {margin-left: 0 !important;margin-right: 0 !important;margin-top: 0 !important;margin-bottom: 0 !important;}
+body .nopaddingall, body .nopaddingall .rt-block, body .nopaddingall .rt-block .module-surround, body ul.nopaddingall, body li.nopaddingall {padding-left: 0 !important;padding-right: 0 !important;padding-top: 0 !important;padding-bottom: 0 !important;}
+body .nomargintop, body .nomargintop .rt-block, body .nomargintop .rt-block .module-surround, body ul.nomargintop, body li.nomargintop {margin-top: 0 !important;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body .nomarginbottom .rt-block .module-surround, body ul.nomarginbottom, body li.nomarginbottom {margin-bottom: 0 !important;}
+body .nomarginleft, body .nomarginleft .rt-block, body .nomarginleft .rt-block .module-surround, body ul.nomarginleft, body li.nomarginleft {margin-left: 0;}
+body .nomarginright, body .nomarginright .rt-block, body .nomarginright .rt-block .module-surround, body ul.nomarginright, body li.nomarginright {margin-right: 0;}
+body .nopaddingtop, body .nopaddingtop .rt-block, body .nomargintop .rt-block .module-surround, body ul.nopaddingtop, body li.nopaddingtop {padding-top: 0 !important;}
+body .nopaddingbottom, body .nopaddingbottom .rt-block, body .nopaddingbottom .rt-block .module-surround, body ul.nopaddingbottom, body li.nopaddingbottom {padding-bottom: 0 !important;}
+body .nopaddingleft, body .nopaddingleft .rt-block, body .nopaddingleft .rt-block .module-surround, body ul.nopaddingleft, body li.nopaddingleft {padding-left: 0;}
+body .nopaddingright, body .nopaddingright .rt-block, body .nopaddingright .rt-block .module-surround, body ul.nopaddingright, body li.nopaddingright {padding-right: 0;}
+.floatnone {float: none !important;}
+.clearnone {clear: none !important;}
+.noimage {display: none;visibility: hidden;}
+body .smallmarginbottom {margin-bottom: 5px !important;}
+body .smallmargintop {margin-top: 5px !important;}
+body .medmarginbottom {margin-bottom: 10px !important;}
+body .medmargintop {margin-top: 10px !important;}
+body .largemarginbottom {margin-bottom: 15px !important;}
+body .largemargintop {margin-top: 15px !important;}
+body .smallmarginleft {margin-left: 5px !important;}
+body .smallmarginright {margin-right: 5px !important;}
+body .medmarginleft {margin-left: 10px !important;}
+body .medmarginright {margin-right: 10px !important;}
+body .largemarginleft {margin-left: 15px !important;}
+body .largemarginright {margin-right: 15px !important;}
+body .smallpaddingbottom {padding-bottom: 5px !important;}
+body .smallpaddingtop {padding-top: 5px !important;}
+body .medpaddingbottom {padding-bottom: 10px !important;}
+body .medpaddingtop {padding-top: 10px !important;}
+body .largepaddingbottom {padding-bottom: 15px !important;}
+body .largepaddingtop {padding-top: 15px !important;}
+body .smallpaddingleft {padding-left: 5px !important;}
+body .smallpaddingright {padding-right: 5px !important;}
+body .medpaddingleft {padding-left: 10px !important;}
+body .medpaddingright {padding-right: 10px !important;}
+body .largepaddingleft {padding-left: 15px !important;}
+body .largepaddingright {padding-right: 15px !important;}
+body .rt-relative {position: relative;}
+
+/* RTL Stuff */
+body.rtl .rt-floatleft {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .rt-floatright {float: left;margin-left: 0;margin-right: 15px;}
+body.rtl .nomarginleft, body.rtl .nomarginleft .rt-block, body.rtl ul.nomarginleft, body.rtl li.nomarginleft {margin-right: 0;}
+body.rtl .nomarginright, body.rtl .nomarginright .rt-block, body.rtl ul.nomarginright, body.rtl li.nomarginright {margin-left: 0;}
+body.rtl .nopaddingleft, body.rtl .nopaddingleft .rt-block, body.rtl ul.nopaddingleft, body.rtl li.nopaddingleft {padding-right: 0;}
+body.rtl .nopaddingright, body.rtl .nopaddingright .rt-block, body.rtl ul.nopaddingright, body.rtl li.nopaddingright {padding-left: 0;}
+body.rtl .smallmarginleft {margin-right: 5px;}
+body.rtl .smallmarginright {margin-left: 5px;}
+body.rtl .medmarginleft {margin-right: 10px;}
+body.rtl .medmarginright {margin-left: 10px;}
+body.rtl .largemarginleft {margin-right: 15px;}
+body.rtl .largemarginright {margin-left: 15px;}
+body.rtl .smallpaddingleft {padding-right: 5px;}
+body.rtl .smallpaddingright {padding-left: 5px;}
+body.rtl .medpaddingleft {padding-right: 10px;}
+body.rtl .medpaddingright {padding-left: 10px;}
+body.rtl .largepaddingleft {padding-right: 15px;}
+body.rtl .largepaddingright {padding-left: 15px;}
+body.rtl .rt-demo-grid-2, body.rtl .rt-demo-grid-3, body.rtl .rt-demo-grid-4, body.rtl .rt-demo-grid-5, body.rtl .rt-demo-grid-6, body.rtl .rt-demo-grid-7 {float: right;}
+body.jan12-home .roktabs-container-wrapper .wrapper .floatleft {margin-right: 0px;margin-left:9px;}
+body.rtl.mar12-home .fp-main-img {float: right;margin: 0 -15px 0 15px;}
+body.rtl.mar12-home .component-content .circle {margin-left: 0;}

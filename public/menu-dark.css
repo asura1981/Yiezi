@@ -1,0 +1,24 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+#rt-navigation {box-shadow: 0px 1px 1px rgba(0,0,0,0.3) inset;background-image: url(../images/overlays/dark/nav-overlay.png);}
+#rt-navigation2 {background-color: #333;background-image: url(../images/overlays/dark/mod-gradient.png);}
+#rt-navigation3 {background-image: url(../images/overlays/dark/nav-lines.png);}
+.rt-menubar .item {color: #fff;text-shadow: -1px -1px 1px #000;}
+.rt-menubar ul.menutop li.active, .rt-menubar ul.menutop li.active:hover, .rt-menubar ul.menutop li.active.f-mainparent-itemfocus {background-image: url(../images/overlays/dark/nav-overlay.png);}
+.rt-menubar ul.menutop li:hover, .rt-menubar ul.menutop li.f-mainparent-itemfocus {background-color: #333;background-image: url(../images/overlays/dark/nav3-overlay.png);}
+.rt-menubar ul.menutop li.active .item span, .rt-menubar ul.menutop li:hover .item span, .rt-menubar ul.menutop li.f-mainparent-itemfocus .item span {background-image: url(../images/overlays/dark/menu-shadow.png);}
+.rt-menubar ul.menutop li.active .item, .rt-menubar ul.menutop li:hover .item, .rt-menubar ul.menutop li.f-mainparent-itemfocus .item {color: #fff;text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2);background-image: url(../images/overlays/dark/menu-shadow.png);}
+.rt-menubar ul.menutop li > .item {background-image: url(../images/overlays/dark/menu-separator.png);}
+
+.fusion-submenu-wrapper {background-color: #333;background-image: url(../images/overlays/dark/nav-lines.png);box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);}
+.fusion-submenu-wrapper .item {color: #EAE9E4;}
+.menutop ul li > .item:hover, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li.active > .item, .menutop li.active.f-menuparent-itemfocus > .item {border: 1px solid #222;background-image: url(../images/overlays/dark/nav2-overlay.png);background-color: #333;}
+.menutop.fusion-js-container ul li > .item:hover, .menutop.fusion-js-container li.f-menuparent-itemfocus > .item, .menutop.fusion-js-container ul li.active > .item, .menutop.fusion-js-container li.active.f-menuparent-itemfocus > .item {border: 1px solid #222;background-image: url(../images/overlays/light/mod-gradient.png);background-color: #222;}
+.menutop ul li > .item:hover span, .menutop li.f-menuparent-itemfocus > .item span, .menutop ul li.active > .item span, .menutop li.active.f-menuparent-itemfocus > .item span {border: 1px solid #444;}
+.menutop li.parent.root .item span .daddyicon, .menutop li.root .daddy.item .daddyicon, .menutop ul li > .daddy span {background-image: url(../images/overlays/dark/arrows.png);}

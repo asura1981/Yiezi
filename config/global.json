@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.5.0"
+  },
+  "applications": {
+    "Yiezi": {
+      "applicationId": "SD0mE2dV8ZUi8pN7T8UTZpAiKymtYs7xOuApLOLN",
+      "masterKey": "szCdHHNDaBC57DDpo7aNggL4SKVoDxA4gpmIXD3a"
+    },
+    "_default": {
+      "link": "Yiezi"
+    }
+  }
+}

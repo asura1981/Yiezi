@@ -1,0 +1,53 @@
+todo:
+    npc顯示, 劇情發展
+
+update 20151221
+	新增global 變數 quest 記錄當下所有quest
+
+update 20151123
+	修改writesate,將自己的icon編號寫入OnlineUser
+	
+update 20151119
+	若網址有地理資訊,前往該地
+	若無地理位置,前往上次離線時地點	
+
+update 20151118	
+	將user娃娃的info window改為facebook大頭貼和FB連結(暫時)
+	//if data is a new marker
+		if(data_index == -1){
+	
+	
+	function add_marker 中
+	if(index==0){
+	的event由drag改為dragend
+
+update 20151112
+	恢復轉貼地點到facebook timeline功能
+	使用者點擊連結可直接設定地點為連結處
+	if(getUrlVar("lat")&&getUrlVar("lng")&&getUrlVar("rta")&&getUrlVar("pitch")){
+	
+	function getUrlVar(requestedKey)
+	修正
+		初始狀態為offline
+		登入狀態成功後改為online
+		line number 1003:set_online();
+	
+	在產生自己的add_marker(0...) 處
+	加上自己的fb顯示小圖做為info window
+	var self_pic = '<div style="height:32px;width:32px;line-height:20px; font-size:12px">' +
+						'<img style="width:32px; height:32px;" src="http://graph.facebook.com/' 
+						+ slf_uid + '/picture">' + "</img>" + "</div>";
+		
+update 20151108
+	window.fbAsyncInit = function()
+	新增
+	未登入狀態時
+	將slf_uid,slf_son 設定為 "N/A";
+
+	function routine()
+	將更新狀態等行為設定為
+	slf_uid,slf_son皆不為"N/A"時執行,避免facebook call back delay造成瀏覽器阻斷routine
+
+	function set_frd_loc(lat, lng, alt)
+	sv.getPanoramaByLocation(pano_latlng, 20, processSVData);
+	將取用街景誤差值改為20公尺

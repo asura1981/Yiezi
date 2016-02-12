@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Yiezi": {
+      "applicationId": "SD0mE2dV8ZUi8pN7T8UTZpAiKymtYs7xOuApLOLN"
+    },
+    "_default": {
+      "link": "Yiezi"
+    }
+  }
+}

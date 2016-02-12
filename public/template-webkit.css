@@ -1,0 +1,30 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Core */
+body, h1, h2, h3, h4, h5 {-webkit-text-rendering: optimizeLegibility;}
+
+/* Transitions */
+a, .readon .button, .button, .btn {-webkit-transition: color 0.2s linear;}
+.roktabs-wrapper .roktabs-links ul li span, .fusion-submenu-wrapper li > .item span, .feature-number-sub, .roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev, .roktabs-wrapper .roktabs-links ul li, #gantry-totop, .component-content #more-articles {-webkit-transition: background 0.2s linear;}
+.component-content .rt-article-icons .icon {-webkit-transition: opacity 0.3s ease-out;}
+.module-content ul.menu li > a, .module-content ul.menu li > .separator, .module-content ul.menu li > .item {-webkit-transition: color 0.2s linear;}
+.menutop ul li > .item:hover, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li.active > .item, .menutop li.active.f-menuparent-itemfocus > .item {-webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;}
+
+/* Demo Presets */
+body .menutop .type-module ol li .fusion-module {overflow: visible;}
+.menu-preset a span {position:relative;z-index:3000; cursor:pointer;}
+.menu-preset a:hover span {position:relative;z-index:3000; cursor:pointer;}
+
+/* Additional Fixes */
+input:-webkit-autofill {background-color: transparent !important;}
+.roktabs-wrapper .roktabs-links ul li span {-webkit-user-select: none;}
+
+/* load transition */
+#rt-transition.rt-hidden {opacity: 0;}
+#rt-transition.rt-visible {opacity: 1;-webkit-transition: opacity 0.4s ease-in;transition: opacity 0.4s ease-in;}

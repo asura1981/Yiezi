@@ -1,0 +1,91 @@
+/**
+ * @package   $Id: responsive.css 57453 2012-10-12 17:03:58Z james $
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Core */
+.rt-image, .rg-gm-slice img, .layout-showcase .sprocket-features-img-container img {max-width: 100%;height: auto;}
+body .rt-block {margin: 15px 10px;}
+.rt-block .module-surround {padding: 15px 0;}
+body .rt-block.menu-block {margin: 0 10px;}
+body .rt-menubar {padding: 0 15px;}
+body.col12 .rt-grid-2 #form-login .inputbox, body.col12 .rt-grid-3 #form-login .inputbox, body.col12 .rt-grid-4 #form-login .inputbox, body.col12 .rt-grid-5 #form-login .inputbox, body.col12 .rt-grid-6 #form-login .inputbox, body.col12 .rt-grid-7 #form-login .inputbox, body.col12 .rt-grid-8 #form-login .inputbox, body.col12 .rt-grid-9 #form-login .inputbox, body.col12 .rt-grid-10 #form-login .inputbox, body.col12 .rt-grid-12 #form-login .inputbox {width: 100%;}
+body .layout-showcase .sprocket-features-content {max-width: 46%;}
+
+/* Navigation */
+.rt-menu-mobile {text-align: center;padding: 15px 0;}
+
+/* Utility Classes */
+.visible-phone {display: none !important;}
+.visible-tablet {display: none !important;}
+.visible-desktop {display: none !important;}
+.hidden-large {display: none !important;}
+
+/* Responsive */
+@media only screen and (min-width: 1200px) {
+	body .visible-large {display: inherit !important;}
+	body .hidden-large {display: none !important;}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	body .visible-large {display: none !important;}
+	body .hidden-large {display: inherit !important;}
+	body .visible-desktop {display: inherit !important;}
+	body .hidden-desktop {display: none !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body .visible-tablet {display: inherit !important;}
+	body .hidden-tablet {display: none !important;}
+	body .hidden-desktop {display: inherit !important;}
+	body .visible-desktop {display: none !important;}
+	body .visible-large {display: none !important;}
+	body .hidden-large {display: inherit !important;}
+	
+	body .layout-showcase .sprocket-features-title {font-size: 2.5em;margin-bottom: 5px;}
+	body .layout-showcase .sprocket-features-title span {font-size: 1.5em;}
+	body .layout-showcase .sprocket-features-desc .desc-text {font-size: 1em;}
+	body .layout-showcase .sprocket-features-img-container img {width: 50%;}
+}
+
+@media only screen and (min-width: 768px) {
+	.rt-menu-mobile {display: none;}
+}
+
+@media only screen and (max-width: 767px) {
+	body .visible-phone {display: inherit !important;}
+	body .hidden-phone {display: none !important;}
+	body .hidden-desktop {display: inherit !important;}
+	body .visible-desktop {display: none !important;}
+	body .hidden-large {display: inherit !important;}
+	body .visible-large {display: none !important;}
+	#rt-logo {margin: 0 auto;}
+	.rt-block.menu-block {visibility: hidden;top: -30000px;left: -30000px;position: absolute;}
+	.rt-totop {position: static;float: right;margin-right: -21px;}
+	body .component-content	.column-1, body .component-content .column-2, body .component-content	.column-3 {width: 100% !important;float: none !important;margin-left: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;}	
+	body .rt-demo-width-20, body .rt-demo-width-25, body .rt-demo-width-30, body .rt-demo-width-33, body .rt-demo-width-40, body .rt-demo-width-50, body .rt-demo-width-60, body .rt-demo-width-66, body .rt-demo-width-70, body .rt-demo-width-75, body .rt-demo-width-80 {width: 100%;}
+	.rt-demo-space {margin: 5px;}
+	body .rt-social-buttons {display: none;}
+	body .layout-showcase .sprocket-features-content {max-width: 100%;}
+	body .layout-showcase .sprocket-features-img-container img {width: 100%%;}
+	body .layout-showcase .sprocket-features-title {font-size: 1.4em;margin-bottom: 5px;}
+	body .layout-showcase .sprocket-features-title span {font-size: 1.5em;}
+	body .layout-showcase .sprocket-features-desc .desc-text {font-size: 1em;}
+	body .layout-showcase .sprocket-features-arrows .next, body .layout-showcase .sprocket-features-arrows .prev {width: 40px;height: 59px;}
+	body .layout-showcase .sprocket-features-arrows .next span, body .layout-showcase .sprocket-features-arrows .prev span {width: 40px;height: 59px;}
+	body .layout-showcase .sprocket-features-arrows .next span {background-position: -73px 8px;}
+	body .layout-showcase .sprocket-features-arrows .prev span {background-position: 3px 8px;}
+	body .rt-container .floatleft, body .rt-container .floatright {float: none;}
+	body #rt-main-container #rt-body-surround {padding: 5px 0;}
+	body .logo-block {display: none;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+	#rt-copyright .rt-block {clear: both;}
+}
